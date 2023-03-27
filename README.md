@@ -22,6 +22,5 @@ Link : [backjoon](https://github.com/encrypted-def/basic-algo-lecture/blob/maste
 
 
 ### 강좌 CONTENTS
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbJ8CZR%2FbtqBO8pjysx%2FwAtYVIBRbAd6kElNAcA3u1%2Fimg.png
-" width="450px" height="300px" title="강좌 CONTENTS" alt="CourseContents"></img><br/>
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbJ8CZR%2FbtqBO8pjysx%2FwAtYVIBRbAd6kElNAcA3u1%2Fimg.png" width="450px" height="300px" title="강좌 CONTENTS" alt="CourseContents"></img><br/>
 

@@ -12,8 +12,8 @@ int main(void)
     {
         scanf("%d", &value);
         array[i] = value;
-        if (array[i] < x)
+        if (array[i] < X)
             printf("%d ", array[i]);
     }
-    s return (0);
+    return (0);
 }

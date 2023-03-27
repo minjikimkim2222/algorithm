@@ -6,8 +6,7 @@
 c/c++ 언어 기반 실전 알고리즘 강좌를 듣고, 각 강좌별로 기본문제, 연습문제, 응용문제를 푼 문제집을 모아놓은 공간이다.
 문제는 백준 온라인 저지에 있는 관련 문제를 푸는 방식으로 진행했다.
 Link : [backjoon](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook.md, "backjoon link")
-
-
+해당 링크 = https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook.md
 
 
 

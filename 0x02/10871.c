@@ -15,5 +15,5 @@ int main(void)
         if (array[i] < x)
             printf("%d ", array[i]);
     }
-    return (0);
+    s return (0);
 }

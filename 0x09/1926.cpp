@@ -38,11 +38,12 @@ int main(void)
                 {
                     int nx = cur.X + dx[dir];
                     int ny = cur.Y + dy[dir];
-                    if (nx < 0 || nx > row || ny < 0 || ny >= col)
+                    if (nx < 0 || nx >= row || ny < 0 || ny >= col)
                         continue;
                     if (vis[nx][ny] || board[nx][ny] == 0)
                         continue;
                     vis[nx][ny] = 1;
+                    Q.push({nx, ny});
                 }
             }
             // (i,j)을 시작점으로 하는 bfs가 종료됨.

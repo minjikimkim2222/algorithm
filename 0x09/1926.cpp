@@ -43,7 +43,6 @@ int main(void)
                     if (vis[nx][ny] || board[nx][ny] == 0)
                         continue;
                     vis[nx][ny] = 1;
-                    Q.push({nx, ny});
                 }
             }
             // (i,j)을 시작점으로 하는 bfs가 종료됨.

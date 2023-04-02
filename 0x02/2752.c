@@ -3,25 +3,26 @@
 int main(void)
 {
     int arr[3];
-    int idx;
-    int tmp;
-
-    scanf("%d %d %d", &arr[0], &arr[1], &arr[2]);
-    idx = 1;
-    for (int i = 0; i < 2; i++)
-    {
-        if (arr[idx] < arr[idx - 1])
-        {
-            tmp = arr[idx];
-            arr[idx] = arr[idx - 1];
-            arr[idx - 1] = tmp;
-        }
-        idx++;
-    }
+    int temp;
     for (int i = 0; i < 3; i++)
+        scanf("%d", &arr[i]);
+    if (arr[0] > arr[1])
     {
-        printf("%d ", arr[i]);
+        temp = arr[0];
+        arr[0] = arr[1];
+        arr[1] = temp;
     }
-    printf("\n");
-    return (0);
+    if (arr[1] > arr[2])
+    {
+        temp = arr[1];
+        arr[1] = arr[2];
+        arr[2] = temp;
+    }
+    if (arr[0] > arr[2])
+    {
+        temp = arr[2];
+        arr[2] = arr[3];
+        arr[3] = arr[2];
+    }
+    printf("%d %d %d\n", arr[0], arr[1], arr[2]);
 }

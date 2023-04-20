@@ -80,13 +80,13 @@ Stack::~Stack()
   // stack class의 소멸자로 stack에 들어있는 모든 node들을 할당 해제 시킴.
   // 단, node 들을 할당 해제 할때 확인을 위해 해제 되는 node들의 data를 출력; ( ex) "delete 1" )
 
-  Node* cur = top; //이제부터 cur를 쓸 거다.
-  while (cur != nullptr)
+  Node* cur;
+  while (top != nullptr)
   {
-    Node* temp = cur;
-    cur = cur -> link;
-    cout << "delete "<< temp -> data << endl; //삭제 node data 출력
-    delete (temp);
+    cur = top;
+    top = top -> link;
+    cout << "delete "<< cur -> data << endl; //삭제 node data 출력
+    delete (cur);
   }
 }
 
@@ -183,4 +183,5 @@ int main()
   cout << s.peek()<<endl;
   s.push(7);
   cout << s.peek()<<endl;
+  s.~Stack();
 }

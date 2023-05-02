@@ -11,7 +11,7 @@ int main(void){
 
     cin >> s;
     while (s[i]){
-        result[s[i] - 97]++;
+        result[s[i] - 97]++; // 이거 그냥 알기 쉽게 result[s[i] - 'a]++; 도 가능
         i++;
     }
     for (int i = 0; i < 26; i++){

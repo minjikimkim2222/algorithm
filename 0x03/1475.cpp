@@ -7,27 +7,61 @@
 
 */
 
-#include <iostream>
+// #include <iostream>
 
-using namespace std;
-int main(void)
-{
-    int n;
-    cin >> n;
-    int arr[10] = {0};
+// using namespace std;
+// int main(void)
+// {
+//     int n;
+//     cin >> n;
+//     int arr[10] = {0};
 
-    while (n)
-    {
-        arr[n%10]++;
-        n = n / 10;
-    }
-    //6과 9는 서로 사용가능하기에 평균값으로 보정.
-    arr[6] = (arr[6] + arr[9] + 1) / 2;
+//     while (n)
+//     {
+//         arr[n%10]++;
+//         n = n / 10;
+//     }
+//     //6과 9는 서로 사용가능하기에 평균값으로 보정.
+//     arr[6] = (arr[6] + arr[9] + 1) / 2;
     
-    int max = 0;
-    for (int i = 0; i < 9; i++) //arr[6]에 arr[9]까지 보정됨.
-    {
-        if (arr[i] > max) max = arr[i];
-    }
-    cout << max;
+//     int max = 0;
+//     for (int i = 0; i < 9; i++) //arr[6]에 arr[9]까지 보정됨.
+//     {
+//         if (arr[i] > max) max = arr[i];
+//     }
+//     cout << max;
+// }
+
+// #include <iostream>
+// #include <string> //string 문자열
+// #include <cstdio> //gets함수
+
+// using namespace std;
+
+// int main(void)
+// {
+//     ios::sync_with_stdio(0);
+//     cin.tie(0);
+//     string s1;
+//     char s[20];
+
+//     cin >> s1; // "abcd efg"
+//     //gets(s); // "abcd efg" 둘 다 똑같음 출력은?
+//     cout << s1;
+//     cout << s;
+// }
+
+#include <iostream>
+#include <string> //getline 함수
+using namespace std;
+
+int main(){
+    
+    string s;
+
+    getline(cin, s);
+    
+    cout << s << endl;
+    
+    return 0;
 }

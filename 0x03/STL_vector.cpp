@@ -46,4 +46,20 @@ int main(void)
    for (int i = 0; i < v1.size(); i++)
     cout << v1[i] << ' ';
 
+    cout << "\n\njust curious\n";
+
+    vector<int> v2(3);
+    v2.push_back(3); // 0,0,0,3
+
+    for (auto temp : v2)
+        cout << temp << ' '; // 0,0,0,3
+    cout << '\n';
+    
+    v2.insert(v2.end(), 4); // 0,0,0,3,4
+
+    v2.insert(v2.end() -1, 5); // 0,0,0,3,5,4
+    for (int temp : v2)
+        cout << temp << ' ';
+
+
 }

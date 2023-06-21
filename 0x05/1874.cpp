@@ -6,6 +6,8 @@
 
 // 2. string 자료형을 output으로 활용하기!
 
+// 3. 헤더파일 <bits/stdc++.h>헤더랑, +=를 쓸 것!(안 그럼 타임 아웃 에러 남 ㄷㄷ)
+
 #include <iostream>
 #include <stack>
 

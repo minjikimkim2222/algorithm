@@ -8,7 +8,6 @@
 
 4. 솔직히 그냥 거의 참고한 코드..
 
-5. 근데 왜 stack이랑 str을 전역변수에 넣어야 성공하는데?????????????
 */
 
 #include <iostream>
@@ -18,13 +17,14 @@ using namespace std;
 
 stack<char> st;
 string s;
+
 int main(void){
     ios::sync_with_stdio(0);
     cin.tie(0);
 
-   // string s;
+   //string s;
     cin >> s;
-   // stack<char> st;
+   //stack<char> st;
 
     int sum = 0; // 리턴값, 총 괄호값
     int num = 1; // 곱할 값

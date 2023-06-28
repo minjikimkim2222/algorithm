@@ -60,6 +60,7 @@ int main(void)
             if (visit[i][j] || board[i][j] == 0) continue; // 방문 이미 했거나, 방문 불가능한 곳(0)이면 pass!
 
             queue<pair<int,int>> Q;
+            cout << "시작지점(i,j) : " << i << j <<'\n';
             visit[i][j] = 1;
             Q.push({i,j}); // 시작지점 방문하고 큐에 넣음
             count++; // 그림 시작점 개수 = 그림 개수
@@ -73,9 +74,14 @@ int main(void)
                 for (int dir = 0; dir < 4; dir++){
                     int nx = cur.first + dx[dir];
                     int ny = cur.second + dy[dir];
-
+                    if (cur.first == 0 && cur.second == 0){
+                        cout << "nx,ny : " << nx << ny << '\n';
+                    }
                     if (nx < 0 || nx >= n || ny < 0 || ny >= m) continue;
                     if (visit[nx][ny] || board[nx][ny] == 0) continue;
+                    if (cur.first == 0 && cur.second == 0){
+                        cout << "nx,ny : " << nx << ny << '\n';
+                    }
                     visit[nx][ny] = 1;
                     Q.push({nx,ny});
                 }

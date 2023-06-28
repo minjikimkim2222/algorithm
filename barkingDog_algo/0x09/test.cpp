@@ -1,3 +1,4 @@
+// 7569 2차원 배열, 3차원 배열
 #include <iostream>
 
 using namespace std;

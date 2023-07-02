@@ -27,3 +27,18 @@ int main(void)
     
     }
 }
+
+// 앞과 같은 논린데 더 깔끔한 부분 발췌
+/*
+int N;
+cin >> N;
+
+for (int i = 0; i < N; i++)
+{
+    int j = 0;
+    for (; j < N-i-1; j++) cout << ' ';
+    for (; j < N; j++) cout << '*';
+    cout << '\n';
+}
+
+*/

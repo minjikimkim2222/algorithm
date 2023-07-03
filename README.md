@@ -12,7 +12,7 @@ Link : [backjoon](https://github.com/encrypted-def/basic-algo-lecture/blob/maste
 
 ### 공부할 때 신경쓴 점 3가지
 1. 배경지식 
-  -> 노션 정리를 참고하자
+  -> study git repo에 정리해둔 강의안
 2. 문제 해결 능력
   -> 해당 강좌별로 나뉘어진 기본문제, 연습문제, 후에 완강을 하고 난뒤 응용문제를 모아서 풀도록 한다
 3. 구현력

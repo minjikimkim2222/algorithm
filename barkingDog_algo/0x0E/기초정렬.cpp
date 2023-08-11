@@ -1,3 +1,7 @@
+/*
+다음은 선택정렬.
+현재 위치에 들어갈 원소를 찾아서, 해당 위치와 교환하는 정렬.
+*/
 #include <iostream>
 
 using namespace std;

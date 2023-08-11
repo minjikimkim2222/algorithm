@@ -2,7 +2,7 @@
 for문 안에 4개의 조건을 전부 if로 하면, idx가 증가한 상태에서 다른 조건에 걸릴 수도 있기에
 else if로 해준다!
 
-stable sort 관련 : 둘의 크기가 같을 때 앞쪽의 원소, 즉 a[aidx]가 c에 들어가야 한다!
+stable sort 관련 성질 : 둘의 크기가 같을 때 앞쪽의 원소, 즉 a[aidx]가 c에 들어가야 한다!
 */
 
 #include <iostream>

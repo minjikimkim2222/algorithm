@@ -11,4 +11,5 @@ int main(void)
     cout << ((a%c) + (b%c)) %c << '\n';
     cout << (a*b) % c << '\n';
     cout << ((a%c) * (b%c)) %c;
+    
 }

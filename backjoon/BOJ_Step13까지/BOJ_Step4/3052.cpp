@@ -23,3 +23,11 @@ int main(void)
     cout << count;
     return (0);
 }
+
+/*
+42개의 배열을 만들고, 처음에 0으로 초기화시킨 다음, 
+해당 나머지 index 배열을 증가시킨다.
+0이상인 경우 count return
+
+참고 : https://st-lab.tistory.com/272
+*/

@@ -27,7 +27,8 @@
         "unordered_map": "cpp",
         "utility": "cpp",
         "iosfwd": "cpp",
-        "list": "cpp"
+        "list": "cpp",
+        "queue": "cpp"
     }
     //"C_Cpp.errorSquiggles": "disabled"
 }
